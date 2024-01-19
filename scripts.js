@@ -1,5 +1,5 @@
 function rotateImage() {
-    const generatedImage = document.getElementById('generatedImage');
+    const generatedImage = document.getElementById('TheFrog');
 
     // Apply the 'rotate' class to trigger the CSS animation
     generatedImage.classList.add('rotate');
