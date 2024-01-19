@@ -1,0 +1,41 @@
+/* Reset some default styles */
+body, h1, p, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+header {
+    padding: 10px;
+}
+
+h1 {
+    color: #000000;
+}
+
+main {
+    margin-top: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f2f2f2;
+}
+
+.rotate {
+    transform: rotate(-360deg);
+    transition: transform 1s ease-in-out;
+}
